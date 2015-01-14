@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Fate Reforged" id="eb15b566-bde2-4c14-ac89-baa56034f71f" gameId="A6C8D2E8-7CD8-11DD-8F94-E62B56D89593" gameVersion="3.1.8.5" version="1.0">
+<set name="JCE Boo Cube" id="44787cc2-1e20-4b76-8460-5e33955666aa" gameId="A6C8D2E8-7CD8-11DD-8F94-E62B56D89593" gameVersion="3.1.8.5" version="1.0">
   <packaging>
-    <pack name="Booster" id="4a33b47f-0038-42d7-8698-714f04091831">
+    <pack name="Booster" id="a6588450-9fa4-4ce6-baa8-6150f4280a66">
       <options>
         <option probability="0.125">
           <pick qty="1" key="Rarity" value="Mythic Rare" />
@@ -21,25 +21,21 @@
         </option>
       </options>
     </pack>
-    <pack name="Lands" id="13dc5e65-ae22-4f0b-ba45-223d0d05949b">
+    <pack name="Lands" id="66a6145c-8d60-477e-92e4-f0dd40f9ec28">
       <pick qty="unlimited" key="Rarity" value="Basic Land" />
     </pack>
   </packaging>
   <cards>
-    <card name="Ugin, the Spirit Dragon" id="a5074ed9-9bd1-477f-a394-5021cd3d1e99">
-      <property name="Cost" value="8" />
-      <property name="CMC" value="8" />
-      <property name="Color" value="Colorless" />
-      <property name="Type" value="Planeswalker" />
-      <property name="Subtype" value="Ugin" />
-      <property name="Rarity" value="Mythic Rare" />
-      <property name="Rules" value="+2: Ugin, the Spirit Dragon deals 3 damage to target creature or player.&#xD;&#xA;−X: Exile each permanent with converted mana cost X or less that's one or more colors.&#xD;&#xA;−10: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield." />
-      <property name="PT Box" value="7" />
-      <property name="Artist" value="Raymond Swanland" />
+    <card name="Cunning Shunning" id="4a507f55-c581-466f-9c97-579bba03bf99">
+      <property name="Cost" value="##" />
+      <property name="CMC" value="2" />
+      <property name="Color" value="Blue" />
+      <property name="Type" value="Instant" />
+      <property name="Rarity" value="Common" />
+      <property name="Rules" value="As an additional cost to cast Cunning Shunning, tap any number of untapped creatures you control.&#xD;&#xA;Destroy target creature with toughness less than or equal to X+X, where X is the number of creatures you tapped while casting Cunning Shunning." />
       <property name="Number" value="001" />
-      <property name="MultiverseId" value="391948" />
     </card>
-    <card name="Abzan Advantage" id="5dd73bd2-fd46-4f9f-a872-f406fbe36ec7">
+    <!--<card name="Abzan Advantage" id="5dd73bd2-fd46-4f9f-a872-f406fbe36ec7">
       <property name="Cost" value="1@" />
       <property name="CMC" value="2" />
       <property name="Color" value="White" />
@@ -2481,7 +2477,7 @@
       <property name="Number" value="175" />
       <property name="MultiverseId" value="391963" />
       <property name="Flags" value="RW" />
-    </card>
+    </card>-->
     <card name="Plains" id="ff2db767-1bd0-45cd-8b05-c1318147a7c0">
       <property name="CMC" value="0" />
       <property name="Color" value="Colorless" />
@@ -2590,7 +2586,7 @@
       <property name="MultiverseId" value="391836" />
       <property name="Flags" value="G" />
     </card>
-    <card name="Flooded Strand" id="e2c1c17c-f30b-4e1a-9a68-2f5859008a84">
+    <!--<card name="Flooded Strand" id="e2c1c17c-f30b-4e1a-9a68-2f5859008a84">
       <property name="CMC" value="0" />
       <property name="Color" value="Colorless" />
       <property name="Type" value="Land" />
@@ -2649,7 +2645,7 @@
       <property name="Flavor" value="Where dragons once roared, their bones now keen." />
       <property name="MultiverseId" value="386725" />
       <property name="Flags" value="GW" />
-    </card>
+    </card>-->
     <card name="Forest" id="866ad358-0984-4357-8172-6a0675d32ce6">
       <property name="CMC" value="0" />
       <property name="Color" value="Colorless" />
